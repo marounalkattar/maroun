@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Maroun ELKATTAR</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3662/3662817.png">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+      <div class="profile">
+        <img src="https://media-exp1.licdn.com/dms/image/D4E03AQGX2iZnP2_dMg/profile-displayphoto-shrink_800_800/0/1666875018323?e=1672272000&v=beta&t=pswatZXcqvP-jgjqdoNXFtQ2ESWvn1ND4DG4jz_3B-U" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Maroun EL KATTAR</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://github.com/marounalkattar"title='gitHub'target="_blank" class="gitHub"><i class="bx bxl-github"></i></a>
+          <a href="https://www.facebook.com/maroun.kattar.9/"title='Facebook'target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/marounalkattar/"title='Instagram'target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="assets/Maroun_EL KATTAR_CV_FR.pdf"title='CV French version'target="_blank" class="google-plus"><i class="bx bxs-download"></i></a>
+          <a href="assets/Maroun_EL KATTAR_CV_EN.pdf"title='CV English version'target="_blank" class="google-plus"><i class="bx bxs-download"></i></a>
+          <a href="https://www.linkedin.com/in/marounkattar/"title='LinkedIn'target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li>
+            <div class="toggle-button-cover">
+              <div class="button-cover">
+                <div class="button b2" id="button-10">
+                  <input type="checkbox" class="checkbox" value="en" id="myCheck" onclick="myFunction()" />
+                  <div class="knobs">
+                    <span style="font-size: 16px;">EN</span>
+                  </div>
+                  <div class="layer"></div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span id="Home">Home</span></a></li>
+          <li><a href="#about"><i class="bx bx-user"></i> <span id="About">About</span></a></li>
+          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span id="Resume">Resume</span></a></li>
+          <li><a href="#portfolio"><i class="bx bx-book-content"></i><span id="projects">Projects</span> </a></li>
+          <li><a href="#test"><i class="bx bx-user"></i><span id="testimo">Testimonials</span></a></li>
+          <li><a href="#contact"><i class="bx bx-envelope"></i> Contacts</a></li>
+
+
+        </ul>
+      </nav><!-- .nav-menu -->
+<script>
+  function myFunction() {
+    var checkBox = document.getElementById("myCheck");
+    // console.log(checkBox);
+if (checkBox.checked == true) {
+console.log("FR");
+document.getElementById("block").style.display = "block";
+document.getElementById("none").style.display = "none";
+document.getElementById("albert").innerHTML=" La seul source de connaissance est L'experience -Albert Einstein ";
+document.getElementById("quote1fr").style.display = "block";
+document.getElementById("quote1en").style.display = "none";
+document.getElementById("skillsen").style.display = "none";
+document.getElementById("skillsfr").style.display = "block";
+document.getElementById("hello").style.display = "none";
+document.getElementById("helloFr").style.display = "block";
+document.getElementById("Abouten").style.display = "none";
+document.getElementById("Aboutfr").style.display = "block";
+document.getElementById("Abouen").style.display = "none";
+document.getElementById("Aboufr").style.display = "block";
+document.getElementById("contacten").style.display = "none";
+document.getElementById("contactfr").style.display = "block";
+document.getElementById("About").innerHTML="À propos";
+document.getElementById("Resume").innerHTML="CV";
+document.getElementById("Home").innerHTML="Accueil";
+document.getElementById("intro").innerHTML="Je m'appelle Maroun, j'ai grandi à Jezzine, au sud du Liban, à bricoler et à jouer avec n'importe quel appareil électrique sur lequel je pouvais mettre la main. Au fil des années, je me suis passionné à la robotique. Ansi, j'ai decidé de développer cette passion dans mon éducation et en tant que profession. Je suis actuellement en cinquième année à Polytech Beyrouth La Sagesse, formation ingénierie mécatronique";
+document.getElementById("mce").innerHTML="Ingénieur Mécatronique";
+document.getElementById("bd").innerHTML="Date de naissance:";
+document.getElementById("bddate").innerHTML=" 04 Juillet 1998";
+document.getElementById("nt").innerHTML="Nationalité:";
+document.getElementById("lebanese").innerHTML=" Libanais";
+document.getElementById("city").innerHTML="Ville:";
+document.getElementById("age").innerHTML="Âge:";
+document.getElementById("projects").innerHTML="Projets";
+document.getElementById("testimo").innerHTML="Témoignages";
+document.getElementById("email").innerHTML="Adresse Mail:";
+document.getElementById("cve").innerHTML="CV Version française";
+document.getElementById("cvf").innerHTML="CV version anglaise";
+document.getElementById("research").innerHTML="Recherche";
+document.getElementById("arduino").innerHTML="Arduino et petit projets";
+document.getElementById("otherr").innerHTML="Autre";
+document.getElementById("resumen").style.display = "none";
+document.getElementById("resumef").style.display = "block";
+
+
+
+
+
+
+
+} else {
+location.reload();
+}
+}
+        
+      </script>
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <div id="hello">
+    <div id="hero" class="d-flex flex-column justify-content-center align-items-center">
+      <div class="hero-container" data-aos="fade-in">
+        <h1>Maroun EL KATTAR</h1>
+        <p><span class="typed" data-typed-items="Mechatronics Engineer"></span></p>
+      </div>
+    </div>
+  </div>
+  <div id="helloFr" style="display: none;">
+    <div id="hero" class="d-flex flex-column justify-content-center align-items-center">
+      <div class="hero-container" data-aos="fade-in">
+        <h1>Maroun EL KATTAR</h1>
+        <div class="wrapper">
+          <div class="typing-demo">
+            Ingenieur Mécatronique    </span> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="Abouten">About</h2>
+          <h2 id="Aboutfr" style="display:none;">À propos</h2>
+          <p id="intro">I’m Maroun, I grew up in Jezzine , South Lebanon tinkering and playing with any electrical device I could get my hands on. Over the years, I have developed a great love for robotics and have perused this in my education and as an occupation. I'm currently at my fifth year at Polytech Beirut La Sagesse majoring in mechatronics engineering
+
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profile-img.jpeg" class="img-fluid" alt=""
+              style="border-radius: 75px;">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3 id="mce">Mechatronics Engineer</h3>
+            <!-- <p class="font-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore
+              magna aliqua.
+            </p> -->
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong id="bd">Birthday:</strong><span id="bddate"> 04 july 1998</span></li>
+                  <li><i class="icofont-rounded-right"></i> <strong id="nt">Nationality:</strong> <span
+                      id="lebanese">Lebanese</span></li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +961 70337815</li>
+                  <li><i class="icofont-rounded-right"></i> <strong id="city">City:</strong> Jezzine</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li style="display:flex"><i class="icofont-rounded-right"></i> <strong id="age">Age: </strong>
+                    <p style="margin-left: 3px !important;" id="demoAge"></p>
+                  </li>
+                  <script>  
+                    var dob = new Date("07/04/1998");  
+                    //calculate month difference from current date in time  
+                    var month_diff = Date.now() - dob.getTime();  
+                      
+                    //convert the calculated difference in date format  
+                    var age_dt = new Date(month_diff);   
+                      
+                    //extract year from date      
+                    var year = age_dt.getUTCFullYear();  
+                      
+                    //now calculate the age of the user  
+                    var age = Math.abs(year - 1970);
+                    document.getElementById("demoAge").innerHTML = " "+age;  
+                       
+                </script>
+                  <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Bachelor Of Engineering</li>
+                  <li><i class="icofont-rounded-right"></i> <strong id="email">Email:</strong> marounalkattar@outlook.com</li>
+                  <!-- <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Available</li> -->
+                </ul>
+              </div>
+            </div>
+            
+            <p><span id="quote1en" >Somewhere, something incredible is waiting to be known. - Carl Sagan</span></p>
+            <p id="quote1fr" style="display:none;" >Quelque part, quelque chose d'incroyable attend d'être connu. - Carl Sagan</p>
+            
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts" style="display: none;">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Facts</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="icofont-simple-smile"></i>
+              <span data-toggle="counter-up">232</span>
+              <p><strong>Happy Clients</strong> consequuntur quae</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="icofont-document-folder"></i>
+              <span data-toggle="counter-up">521</span>
+              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="icofont-live-support"></i>
+              <span data-toggle="counter-up">1,463</span>
+              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="icofont-users-alt-5"></i>
+              <span data-toggle="counter-up">15</span>
+              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="skillsen">Skills</h2>
+          <h2 id="skillsfr" style="display: none;">Compétences</h2>
+      </div>
+
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">C/C++<i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="90">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Python <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">OpenCV <i class="val">50%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Matlab <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Assembly<i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100" id="col-lg-611">
+
+            <div class="progress">
+              <span class="skill">Arduino <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Raspberry Pi <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">PIC<i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">LabView <i class="val">50%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">PLC <i class="val">45%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100" style="margin-top:5%">
+
+            <div class="progress">
+              <span class="skill">SolidWorks <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">AutoCAD <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Cura <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Simplify <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">PrusaSlicer <i class="val">99%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100" style="margin-top:5%">
+
+            <div class="progress">
+              <span class="skill">Logical Circuit <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Proteus <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">TinkerCad <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Fritzing <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Simulink <i class="val">65%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="resumen">Resume</h2>
+        </div>
+        <div id="resumef" class="section-title" style="display: none;">
+          <h2>CV</h2>
+        </div>
+        <div class="pdfDownloaderContainer" style="display: flex;padding:4% ;justify-content: space-around;">
+          <a class="cvDownloaderBtn" style="width: 30%; height:60px" target="_blank" href="assets/Maroun_EL KATTAR_CV_EN.pdf"
+            open="Maroun_EL KATTAR_CV_EN.pdf"><span id="cve"> CV English Version </span></a>
+          <a class="cvDownloaderBtn" style="width: 30%; height:60px" target="_blank" href="assets/Maroun_EL KATTAR_CV_FR.pdf"
+            open="MarounELKATTAR_CV_FR.pdf"><span id="cvf">CV French Version</span></a>
+        </div>
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="Abouen">Projects</h2>
+          <h2 id="Aboufr" style="display:none;">Projets</h2>
+          <p id="albert">“The only source of knowledge is experience.” – Albert Einstein</p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app" id="research">Research</li>
+              <li data-filter=".filter-card" id="arduino">Arduino and small projects</li>
+              <li data-filter=".filter-web" id="python">Python</li>
+              <li data-filter=".filter-other" id="otherr">other</li>
+            </ul>
+          </div>
+        </div>
+        
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-other">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/home-assistant.png" class="img-fluid" alt="">
+              <p style="margin-left: 30%;">Home Assistant</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/home-assistant.png" data-gall="portfolioGallery" class="venobox"
+                  title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="https://marounalkattar.github.io/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/embadded-system.jpg" class="img-fluid" alt="">
+              <p style="margin-left: 30%;">Embadded System</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/embadded-system.jpg" data-gall="portfolioGallery" class="venobox"
+                  title="Web 3" title="App 4"><i class="bx bx-plus"></i></a>
+                <a href="https://marounalkattar.github.io/-hbjnkmkl/"  target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/robot car.jpg" class="img-fluid" alt="">
+              <p style="margin-left: 30%;">Robot Car</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/robot car.jpg" data-gall="portfolioGallery" class="venobox"
+                  title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="https://marounalkattar.github.io/portfolio/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/voice-recog.jpg" class="img-fluid" alt="">
+              <p style="margin-left: 30%;">Voice Recognition</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/voice-recog.jpg" data-gall="portfolioGallery" class="venobox"
+                  title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="https://marounalkattar.github.io/aiportfolio/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/computer-vision.jpg" class="img-fluid" alt="" style="width: 500px;height: 260px;">
+              <p style="margin-left: 30%;">Computer Vision</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/computer-vision.jpg" data-gall="portfolioGallery" class="venobox"
+                  title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="https://marounalkattar.github.io/opencv/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/renewable.jpg" class="img-fluid" alt="" style="width: 500px;height: 260px;">
+              <p style="margin-left: 20%;"> Renewable energy sources</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/renewable.jpg" data-gall="portfolioGallery" class="venobox"
+                  title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="/assets/MarounElkattar--Sustainable home.pdf" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Sumo-robot.jpg" class="img-fluid" alt="" style="width: 500px;height: 260px;" >
+              <p style="margin-left: 30%;"> Sumo Robot</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Sumo-robot.jpg" data-gall="portfolioGallery" class="venobox"
+                  title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="https://community.robotshop.com/robots/show/sumo-robot-competition-3kg" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="https://cdn.shopify.com/s/files/1/0506/1689/3647/products/T050000_01.iso_1920x1521.jpg?v=1627291839" class="img-fluid" alt="" style="width: 500px;height: 260px;">
+              <p style="margin-left: 30%;"> Robot Arm</p>
+              <div class="portfolio-links">
+                <a href="https://cdn.shopify.com/s/files/1/0506/1689/3647/products/T050000_01.iso_1920x1521.jpg?v=1627291839" data-gall="portfolioGallery" class="venobox"
+                  title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="https://marounalkattar.github.io/robotarm/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox"
+                  title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services" style="display: none;">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="icofont-computer"></i></div>
+            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+              occaecati cupiditate non provident</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
+            <h4 class="title"><a href="">Dolor Sitema</a></h4>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat tarad limino ata</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="icofont-earth"></i></div>
+            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><i class="icofont-image"></i></div>
+            <h4 class="title"><a href="">Magni Dolores</a></h4>
+            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><i class="icofont-settings"></i></div>
+            <h4 class="title"><a href="">Nemo Enim</a></h4>
+            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+              voluptatum deleniti atque</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon"><i class="icofont-tasks-alt"></i></div>
+            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
+              soluta nobis est eligendi</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Testimonials Section en ======= -->
+    <section id="test" class="testimonials section-bg">
+      <div id="none" class="container">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p style="display: none;">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="owl-carousel testimonials-carousel">
+
+          <div class="testimonial-item" data-aos="fade-up">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Maroun is among the best students I have encountered in my 15 years of 
+              teaching at universities. He has been a strong leader during the 
+              labs and projects among his teammates, eager to share his knowledge with others and learn new 
+              skills. The skills he has in the lab and in all practical applications are remarkable. Added to that, 
+              the analysis and the engineering discrimination that he has are remarkable
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="https://media-exp1.licdn.com/dms/image/C5603AQGmstk5xUuBCg/profile-displayphoto-shrink_100_100/0/1517523998495?e=1672272000&v=beta&t=JPTYGwr27GuFWCHpGudX92IYoPr7EyZ4eAQEPJzWytE" class="testimonial-img" alt="">
+            <h3>Dr. Roy Abi Zeid Daou</h3>
+            <h4>Mehatronics Advisor at La sagesse university</h4>
+          </div>
+
+          <!-- <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
+              quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="https://media-exp1.licdn.com/dms/image/C5603AQHqPtyf1136Yw/profile-displayphoto-shrink_100_100/0/1516849869382?e=1672272000&v=beta&t=4Fb5PpwQuBR8r0IvUUu6mfhU3jWWpkpjofn26kQxoHA" class="testimonial-img" alt="">
+            <h3>Dr. Antoine Gedeon</h3>
+            <h4>Dean at La Sagesse University</h4>
+          </div> -->
+
+          <div  class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Maroun is one of the best engineers we encounter in the internship program at our company "Cube 3DP" 
+              He is very skillful, can adapt to every situation, fast learner, he is handy with tools, and does not mind learning new skills when he got the chance.
+              It was a pleasure for me to work with such an enthusiastic person.
+              
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="https://media-exp1.licdn.com/dms/image/C5103AQFf_h8dWQf7Bw/profile-displayphoto-shrink_100_100/0/1517057201912?e=1672272000&v=beta&t=bjCAc9HSloh_96fmrPf1KZKwfHEXhhO_pEmffvE1Lu8" class="testimonial-img" alt="">
+            <h3>Marc Anthony Meouchy</h3>
+            <h4 id="testMarken">Manager at Cube 3DP</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Maroun demonstrated good design skills with a self-motivated attitude to learn new things during the internship program at our company "3D Maker"
+               His performance exceeded expectations and was able to complete his projects successfully on time.
+               We wish him all the best for his future endeavors.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="https://media-exp1.licdn.com/dms/image/C4E22AQEoI5S63rlV2g/feedshare-shrink_480/0/1664975790244?e=1669852800&v=beta&t=WI-RfWBp7LC0_NJ_fxdL1fMQoNe2MC8WhLiDbN1-_xU" class="testimonial-img" alt="">
+            <h3>Yehia Jammoul</h3>
+            <h4>CEO of 3D Maker</h4>
+          </div>
+
+          <!-- <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
+              labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+            <h3>John Larson</h3>
+            <h4>Entrepreneur</h4>
+          </div> -->
+
+        </div>
+
+      </div>
+      <div id="block"class="container" style="display: none;">
+        <div class="section-title">
+          <h2>Témoignages</h2>
+          <p style="display: none;">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="owl-carousel testimonials-carousel">
+
+          <div class="testimonial-item" data-aos="fade-up">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Maroun est un des meilleurs étudiants que j'ai rencontrés au cours de mes 15 années d'enseignement entant que prof-chercheur.
+              Il a été un leader solide durant les seances de TP au
+              laboratoire et de projets au sein de ses équipes de travail, désireux de partager ses connaissances avec les autres et d'apprendre de nouvelles
+              compétences. Son travail en laboratoire et dans toutes les applications pratiques est remarquable. Ajouté à cela,
+              l'analyse et la discrimination d'ingénierie admirables qu'il a.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="https://media-exp1.licdn.com/dms/image/C5603AQGmstk5xUuBCg/profile-displayphoto-shrink_100_100/0/1517523998495?e=1672272000&v=beta&t=JPTYGwr27GuFWCHpGudX92IYoPr7EyZ4eAQEPJzWytE" class="testimonial-img" alt="">
+            <h3>Dr. Roy Abi Zeid Daou</h3>
+            <h4>
+              Responsable de la formation mécatronique à L'Université La Sagesse</h4>
+          </div>
+
+          <!-- <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
+              quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="https://media-exp1.licdn.com/dms/image/C5603AQHqPtyf1136Yw/profile-displayphoto-shrink_100_100/0/1516849869382?e=1672272000&v=beta&t=4Fb5PpwQuBR8r0IvUUu6mfhU3jWWpkpjofn26kQxoHA" class="testimonial-img" alt="">
+            <h3>Dr. Antoine Gedeon</h3>
+            <h4>Doyen de l'Université La Sagesse</h4>
+          </div> -->
+
+          <div  class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Maroun est l'un des meilleurs étudiants ingénieurs que nous rencontrons dans le programme de stage de notre entreprise "Cube 3DP"
+              Il est très habile, peut s'adapter à toutes les situations, apprend vite, s'adapte avec les outils et n'hésite pas à apprendre
+               de nouvelles compétences quand il en a l'occasion.
+              Ce fut un plaisir pour moi de travailler avec une personne aussi enthousiaste.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="https://media-exp1.licdn.com/dms/image/C5103AQFf_h8dWQf7Bw/profile-displayphoto-shrink_100_100/0/1517057201912?e=1672272000&v=beta&t=bjCAc9HSloh_96fmrPf1KZKwfHEXhhO_pEmffvE1Lu8" class="testimonial-img" alt="">
+            <h3>Marc Anthony Meouchy</h3>
+            <h4 id="testMarken">Directeur chez Cube 3DP</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Maroun a démontré de bonnes compétences en conception avec une attitude motivée pour apprendre de nouvelles choses au cours du programme
+              de stage dans notre entreprise "3D Maker"
+              Sa performance a dépassé les attentes et a pu achever ses projets avec succès dans les délais de temps demandés.
+              Nous lui souhaitons tout le meilleur pour ses futurs projets.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="https://media-exp1.licdn.com/dms/image/C4E22AQEoI5S63rlV2g/feedshare-shrink_480/0/1664975790244?e=1669852800&v=beta&t=WI-RfWBp7LC0_NJ_fxdL1fMQoNe2MC8WhLiDbN1-_xU" class="testimonial-img" alt="">
+            <h3>Yehia Jammoul</h3>
+            <h4>CEO de 3D Maker</h4>
+          </div>
+
+          <!-- <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
+              labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+            <h3>John Larson</h3>
+            <h4>Entrepreneur</h4>
+          </div> -->
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div id="contacten" class="container">
+
+
+
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+        <p> 
+          <span id="build" >Let's build something AMAZING together</span>
+        </p>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Location:</h4>
+                <p>Jezzine,Lebanon</p>
+                <p>Ashrafieh,Lebanon</p>
+
+              </div>
+
+              <div class="email">
+                <i href="mailto:marounalkattar@outlook.com" class="icofont-envelope"></i>
+                <h4 href="mailto:marounalkattar@outlook.com">Email:</h4>
+                <p href="mailto:marounalkattar@outlook.com">marounalkattar@outlook.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Call:</h4>
+                <p>+961 70337815</p>
+              </div>
+              </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+      <div id="contactfr" class="container" style="display: none;">
+
+
+
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+        <p> 
+          <span id="build" >Construisons quelque chose d'INCROYABLE ensemble</span>
+        </p>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Adresse</h4>
+                <p>Jezzine,Liban</p>
+                <p>Ashrafieh,Liban</p>
+
+              </div>
+
+              <div class="email">
+                <i href="mailto:marounalkattar@outlook.com" class="icofont-envelope"></i>
+                <h4 href="mailto:marounalkattar@outlook.com">Email:</h4>
+                <p href="mailto:marounalkattar@outlook.com">marounalkattar@outlook.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Appel:</h4>
+                <p>+961 70337815</p>
+              </div>
+              </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+
+  </main><!-- End #main -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <footer id="footer">
+      <div class="credits">
+        <img src="assets/img/MKlogo.jpg" class="img-fluid" alt="">
+       
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
