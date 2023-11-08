@@ -43,8 +43,6 @@
           <a href="https://github.com/marounalkattar"title='gitHub'target="_blank" class="gitHub"><i class="bx bxl-github"></i></a>
           <a href="https://www.facebook.com/maroun.kattar.9/"title='Facebook'target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
           <a href="https://www.instagram.com/marounalkattar/"title='Instagram'target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="assets/Maroun_EL KATTAR_CV_FR.pdf"title='CV French version'target="_blank" class="google-plus"><i class="bx bxs-download"></i></a>
-          <a href="assets/Maroun_EL KATTAR_CV_EN.pdf"title='CV English version'target="_blank" class="google-plus"><i class="bx bxs-download"></i></a>
           <a href="https://www.linkedin.com/in/marounkattar/"title='LinkedIn'target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
       </div>
@@ -66,9 +64,7 @@
           </li>
           <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span id="Home">Home</span></a></li>
           <li><a href="#about"><i class="bx bx-user"></i> <span id="About">About</span></a></li>
-          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span id="Resume">Resume</span></a></li>
           <li><a href="#portfolio"><i class="bx bx-book-content"></i><span id="projects">Projects</span> </a></li>
-          <li><a href="#test"><i class="bx bx-user"></i><span id="testimo">Testimonials</span></a></li>
           <li><a href="#contact"><i class="bx bx-envelope"></i> Contacts</a></li>
 
 
@@ -80,25 +76,7 @@
     // console.log(checkBox);
 if (checkBox.checked == true) {
 console.log("FR");
-document.getElementById("block").style.display = "block";
-document.getElementById("none").style.display = "none";
-document.getElementById("albert").innerHTML=" La seul source de connaissance est L'experience -Albert Einstein ";
-document.getElementById("quote1fr").style.display = "block";
-document.getElementById("quote1en").style.display = "none";
-document.getElementById("skillsen").style.display = "none";
-document.getElementById("skillsfr").style.display = "block";
-document.getElementById("hello").style.display = "none";
-document.getElementById("helloFr").style.display = "block";
-document.getElementById("Abouten").style.display = "none";
-document.getElementById("Aboutfr").style.display = "block";
-document.getElementById("Abouen").style.display = "none";
-document.getElementById("Aboufr").style.display = "block";
-document.getElementById("contacten").style.display = "none";
-document.getElementById("contactfr").style.display = "block";
-document.getElementById("About").innerHTML="À propos";
-document.getElementById("Resume").innerHTML="CV";
-document.getElementById("Home").innerHTML="Accueil";
-document.getElementById("intro").innerHTML="Je m'appelle Maroun, j'ai grandi à Jezzine, au sud du Liban, à bricoler et à jouer avec n'importe quel appareil électrique sur lequel je pouvais mettre la main. Au fil des années, je me suis passionné à la robotique. Ansi, j'ai decidé de développer cette passion dans mon éducation et en tant que profession. Je suis actuellement en cinquième année à Polytech Beyrouth La Sagesse, formation ingénierie mécatronique";
+document.getElementById("skillsen").innerHTML="Compétences";
 document.getElementById("mce").innerHTML="Ingénieur Mécatronique";
 document.getElementById("bd").innerHTML="Date de naissance:";
 document.getElementById("bddate").innerHTML=" 04 Juillet 1998";
@@ -106,16 +84,29 @@ document.getElementById("nt").innerHTML="Nationalité:";
 document.getElementById("lebanese").innerHTML=" Libanais";
 document.getElementById("city").innerHTML="Ville:";
 document.getElementById("age").innerHTML="Âge:";
+document.getElementById("albert").innerHTML=" La seul source de connaissance est L'experience -Albert Einstein ";
+document.getElementById("quote1fr").style.display = "block";
+document.getElementById("quote1en").style.display = "none";
+document.getElementById("hello").style.display = "none";
+document.getElementById("helloFr").style.display = "block";
+document.getElementById("Abouten").style.display = "none";
+document.getElementById("Aboutfr").style.display = "block";
+document.getElementById("Abouen").style.display = "none";
+document.getElementById("intro").style.display = "none";
+document.getElementById("Aboufr").style.display = "block";
+document.getElementById("contacten").style.display = "none";
+document.getElementById("contactfr").style.display = "block";
+document.getElementById("About").innerHTML="À propos";
+document.getElementById("Home").innerHTML="Accueil";
 document.getElementById("projects").innerHTML="Projets";
-document.getElementById("testimo").innerHTML="Témoignages";
 document.getElementById("email").innerHTML="Adresse Mail:";
-document.getElementById("cve").innerHTML="CV Version française";
-document.getElementById("cvf").innerHTML="CV version anglaise";
 document.getElementById("research").innerHTML="Recherche";
 document.getElementById("arduino").innerHTML="Arduino et petit projets";
 document.getElementById("otherr").innerHTML="Autre";
 document.getElementById("resumen").style.display = "none";
 document.getElementById("resumef").style.display = "block";
+document.getElementById("intro").style.display = "block";
+
 
 
 
@@ -164,9 +155,10 @@ location.reload();
         <div class="section-title">
           <h2 id="Abouten">About</h2>
           <h2 id="Aboutfr" style="display:none;">À propos</h2>
-          <p id="intro">I’m Maroun, I grew up in Jezzine , South Lebanon tinkering and playing with any electrical device I could get my hands on. Over the years, I have developed a great love for robotics and have perused this in my education and as an occupation. I'm currently at my fifth year at Polytech Beirut La Sagesse majoring in mechatronics engineering
-
+          <p id="intro">I’m Maroun, I grew up in Jezzine , South Lebanon tinkering and playing with any electrical device I could get my hands on. Over the years, I have developed a great love for robotics and have perused this in my education and as an occupation. After obtaining my degree in engineering at  Polytechnic of Beirut La Sagesse  University , I continued my master's studies in complex systems engineering, with a specialization in Automation, Mechatronics, Automotive, Aeronautics and Space.
           </p>
+          <p id="skillsfr" style="display: none;">Je m'appelle Maroun, j'ai grandi à Jezzine, au sud du Liban, à bricoler et à jouer avec n'importe quel appareil électrique sur lequel je pouvais mettre la main. Au fil des années, je me suis passionné à la robotique. Ansi, j'ai decidé de développer cette passion dans mon éducation et en tant que profession. Après avoir obtenu mon diplôme en ingénierie à l'Université Polytechnique La Sagesse de Beyrouth, j'ai poursuivi mes études en master en ingénierie des systèmes complexes, avec une spécialisation en Automatique, Mécatronique, Automobile, Aéronautique et Spatial
+            <p>
         </div>
 
         <div class="row">
@@ -462,24 +454,6 @@ location.reload();
       </div>
     </section><!-- End Skills Section -->
 
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container">
-
-        <div class="section-title">
-          <h2 id="resumen">Resume</h2>
-        </div>
-        <div id="resumef" class="section-title" style="display: none;">
-          <h2>CV</h2>
-        </div>
-        <div class="pdfDownloaderContainer" style="display: flex;padding:4% ;justify-content: space-around;">
-          <a class="cvDownloaderBtn" style="width: 30%; height:60px" target="_blank" href="assets/Maroun_EL KATTAR_CV_EN.pdf"
-            open="Maroun_EL KATTAR_CV_EN.pdf"><span id="cve"> CV English Version </span></a>
-          <a class="cvDownloaderBtn" style="width: 30%; height:60px" target="_blank" href="assets/Maroun_EL KATTAR_CV_FR.pdf"
-            open="MarounELKATTAR_CV_FR.pdf"><span id="cvf">CV French Version</span></a>
-        </div>
-      </div>
-    </section><!-- End Resume Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio section-bg">
@@ -672,170 +646,6 @@ location.reload();
       </div>
     </section><!-- End Services Section -->
 
-    <!-- ======= Testimonials Section en ======= -->
-    <section id="test" class="testimonials section-bg">
-      <div id="none" class="container">
-
-        <div class="section-title">
-          <h2>Testimonials</h2>
-          <p style="display: none;">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="owl-carousel testimonials-carousel">
-
-          <div class="testimonial-item" data-aos="fade-up">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Maroun is among the best students I have encountered in my 15 years of 
-              teaching at universities. He has been a strong leader during the 
-              labs and projects among his teammates, eager to share his knowledge with others and learn new 
-              skills. The skills he has in the lab and in all practical applications are remarkable. Added to that, 
-              the analysis and the engineering discrimination that he has are remarkable
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-            <img src="assets/img/portfolio/roy-a.jpg" class="testimonial-img" alt="">
-            <h3>Dr. Roy Abi Zeid Daou</h3>
-            <h4>Mehatronics Advisor at La sagesse university</h4>
-          </div>
-
-          <!-- <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
-              quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-            <img src="https://media-exp1.licdn.com/dms/image/C5603AQHqPtyf1136Yw/profile-displayphoto-shrink_100_100/0/1516849869382?e=1672272000&v=beta&t=4Fb5PpwQuBR8r0IvUUu6mfhU3jWWpkpjofn26kQxoHA" class="testimonial-img" alt="">
-            <h3>Dr. Antoine Gedeon</h3>
-            <h4>Dean at La Sagesse University</h4>
-          </div> -->
-
-          <div  class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Maroun is one of the best engineers we encounter in the internship program at our company "Cube 3DP" 
-              He is very skillful, can adapt to every situation, fast learner, he is handy with tools, and does not mind learning new skills when he got the chance.
-              It was a pleasure for me to work with such an enthusiastic person.
-              
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-            <img src="assets/img/portfolio/mark-m.jpg" class="testimonial-img" alt="">
-            <h3>Marc Anthony Meouchy</h3>
-            <h4 id="testMarken">Manager at Cube 3DP</h4>
-          </div>
-
-          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Maroun demonstrated good design skills with a self-motivated attitude to learn new things during the internship program at our company "3D Maker"
-               His performance exceeded expectations and was able to complete his projects successfully on time.
-               We wish him all the best for his future endeavors.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-            <img src="assets/img/portfolio/yehia-j.jpg" class="testimonial-img" alt="">
-            <h3>Yehia Jammoul</h3>
-            <h4>CEO of 3D Maker</h4>
-          </div>
-
-          <!-- <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
-              labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-            <h3>John Larson</h3>
-            <h4>Entrepreneur</h4>
-          </div> -->
-
-        </div>
-
-      </div>
-      <div id="block"class="container" style="display: none;">
-        <div class="section-title">
-          <h2>Témoignages</h2>
-          <p style="display: none;">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="owl-carousel testimonials-carousel">
-
-          <div class="testimonial-item" data-aos="fade-up">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Maroun est un des meilleurs étudiants que j'ai rencontrés au cours de mes 15 années d'enseignement entant que prof-chercheur.
-              Il a été un leader solide durant les seances de TP au
-              laboratoire et de projets au sein de ses équipes de travail, désireux de partager ses connaissances avec les autres et d'apprendre de nouvelles
-              compétences. Son travail en laboratoire et dans toutes les applications pratiques est remarquable. Ajouté à cela,
-              l'analyse et la discrimination d'ingénierie admirables qu'il a.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-            <img src="assets/img/portfolio/roy-a.jpg" class="testimonial-img" alt="">
-            <h3>Dr. Roy Abi Zeid Daou</h3>
-            <h4>
-              Responsable de la formation mécatronique à L'Université La Sagesse</h4>
-          </div>
-
-          <!-- <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
-              quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-            <img src="https://media-exp1.licdn.com/dms/image/C5603AQHqPtyf1136Yw/profile-displayphoto-shrink_100_100/0/1516849869382?e=1672272000&v=beta&t=4Fb5PpwQuBR8r0IvUUu6mfhU3jWWpkpjofn26kQxoHA" class="testimonial-img" alt="">
-            <h3>Dr. Antoine Gedeon</h3>
-            <h4>Doyen de l'Université La Sagesse</h4>
-          </div> -->
-
-          <div  class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Maroun est l'un des meilleurs étudiants ingénieurs que nous rencontrons dans le programme de stage de notre entreprise "Cube 3DP"
-              Il est très habile, peut s'adapter à toutes les situations, apprend vite, s'adapte avec les outils et n'hésite pas à apprendre
-               de nouvelles compétences quand il en a l'occasion.
-              Ce fut un plaisir pour moi de travailler avec une personne aussi enthousiaste.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-            <img src="assets/img/portfolio/mark-m.jpg" class="testimonial-img" alt="">
-            <h3>Marc Anthony Meouchy</h3>
-            <h4 id="testMarken">Directeur chez Cube 3DP</h4>
-          </div>
-
-          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Maroun a démontré de bonnes compétences en conception avec une attitude motivée pour apprendre de nouvelles choses au cours du programme
-              de stage dans notre entreprise "3D Maker"
-              Sa performance a dépassé les attentes et a pu achever ses projets avec succès dans les délais de temps demandés.
-              Nous lui souhaitons tout le meilleur pour ses futurs projets.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-            <img src="assets/img/portfolio/yehia-j.jpg" class="testimonial-img" alt="">
-            <h3>Yehia Jammoul</h3>assets/img/portfolio/yehia-j.jpg
-            <h4>CEO de 3D Maker</h4>
-          </div>
-
-          <!-- <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
-              labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-            <h3>John Larson</h3>
-            <h4>Entrepreneur</h4>
-          </div> -->
-
-        </div>
-
-      </div>
-    </section>
 
 
 
