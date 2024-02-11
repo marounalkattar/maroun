@@ -76,6 +76,8 @@
     // console.log(checkBox);
 if (checkBox.checked == true) {
 console.log("FR");
+// document.getElementById("contacten").style.display = "none";
+// document.getElementById("contactfr").style.display = "block";
 document.getElementById("skillsen").innerHTML="Compétences";
 document.getElementById("mce").innerHTML="Ingénieur Mécatronique";
 document.getElementById("bd").innerHTML="Date de naissance:";
@@ -94,8 +96,7 @@ document.getElementById("Aboutfr").style.display = "block";
 document.getElementById("Abouen").style.display = "none";
 document.getElementById("intro").style.display = "none";
 document.getElementById("Aboufr").style.display = "block";
-document.getElementById("contacten").style.display = "none";
-document.getElementById("contactfr").style.display = "block";
+
 document.getElementById("About").innerHTML="À propos";
 document.getElementById("Home").innerHTML="Accueil";
 document.getElementById("projects").innerHTML="Projets";
@@ -179,7 +180,6 @@ location.reload();
                   <li><i class="icofont-rounded-right"></i> <strong id="bd">Birthday:</strong><span id="bddate"> 04 july 1998</span></li>
                   <li><i class="icofont-rounded-right"></i> <strong id="nt">Nationality:</strong> <span
                       id="lebanese">Lebanese</span></li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +961 70337815</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +33 0778904678</li>
                   <li><i class="icofont-rounded-right"></i> <strong id="city">City:</strong> Jezzine</li>
                 </ul>
@@ -576,6 +576,50 @@ location.reload();
               </div>
             </div>
           </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app filter-matlab">
+            <div class="portfolio-wrap">
+              <img src="https://www.siliconrepublic.com/wp-content/uploads/2021/06/Self_driving_car-718x523.jpeg" class="img-fluid" alt="" style="width: 500px;height: 260px;">
+              <p style="margin-left: 30%;">Autonomous Car</p>
+              <div class="portfolio-links">
+                <a href="https://www.siliconrepublic.com/wp-content/uploads/2021/06/Self_driving_car-718x523.jpeg" data-gall="portfolioGallery" class="venobox"
+                  title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="https://drive.google.com/file/d/1TGKExpiUsq9iuaHHmInaKJ6lo-te5vGU/view?usp=sharing" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app filter-matlab">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/pt.png" class="img-fluid" alt="" style="width: 500px;height: 260px;">
+              <p style="margin-left: 30%;">Trajectory planning</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/pt.png" data-gall="portfolioGallery" class="venobox"
+                  title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="https://drive.google.com/file/d/1VKPxA5lTD2-3MhhP9alKTITLSs1ZAymz/view?usp=sharing" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app filter-matlab">
+            <div class="portfolio-wrap">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Cart-pendulum.svg/800px-Cart-pendulum.svg.png" class="img-fluid" alt="" style="width: 500px;height: 260px;">
+              <p style="margin-left: 30%;">Inverted pendulum</p>
+              <div class="portfolio-links">
+                <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Cart-pendulum.svg/800px-Cart-pendulum.svg.png" data-gall="portfolioGallery" class="venobox"
+                  title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="https://drive.google.com/file/d/16wqREFYvRPQBwhTv4BMc1La8wrR4oi_V/view?usp=sharing" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app filter-matlab">
+            <div class="portfolio-wrap">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Road_in_Norway.jpg/1280px-Road_in_Norway.jpg" class="img-fluid" alt="" style="width: 500px;height: 260px;">
+              <p style="margin-left: 30%;">Road Monitoring</p>
+              <div class="portfolio-links">
+                <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Road_in_Norway.jpg/1280px-Road_in_Norway.jpg" data-gall="portfolioGallery" class="venobox"
+                  title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="https://drive.google.com/file/d/1TGKExpiUsq9iuaHHmInaKJ6lo-te5vGU/view?usp=drive_link" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
 
           <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
@@ -651,11 +695,7 @@ location.reload();
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
-      <div id="contacten" class="container">
-
-
-
-
+      <div  class="container">
         <div class="section-title">
           <h2>Contact</h2>
         </div>
@@ -683,7 +723,6 @@ location.reload();
               <div class="phone">
                 <i class="icofont-phone"></i>
                 <h4>Call:</h4>
-                <p>+961 70337815</p>
                 <p>+33 0778904678</p>
               </div>
               </div>
@@ -692,13 +731,8 @@ location.reload();
 
 
         </div>
-
       </div>
-      <div id="contactfr" class="container" style="display: none;">
-
-
-
-
+      <!-- <div id="contactfr" class="container" style="display: none;">
         <div class="section-title">
           <h2>Contact</h2>
         </div>
@@ -707,36 +741,28 @@ location.reload();
         </p>
 
         <div class="row" data-aos="fade-in">
-
           <div class="col-lg-5 d-flex align-items-stretch">
             <div class="info">
               <div class="address">
                 <i class="icofont-google-map"></i>
                 <h4>Adresse</h4>
-               
                 <p>16 Av. de Collegno, 33400 Talence</p>
-
               </div>
-
               <div class="email">
                 <i href="mailto:marounalkattar@outlook.com" class="icofont-envelope"></i>
                 <h4 href="mailto:marounalkattar@outlook.com">Email:</h4>
                 <p href="mailto:marounalkattar@outlook.com">marounalkattar@outlook.com</p>
               </div>
-
               <div class="phone">
                 <i class="icofont-phone"></i>
                 <h4>Appel:</h4>
-                <p>+961 70337815</p>
                 <p>+33 0778904678</p>
               </div>
               </div>
-
           </div>
         </div>
-
       </div>
-    </section><!-- End Contact Section -->
+    </section>End Contact Section -->
 
 
   </main><!-- End #main -->
